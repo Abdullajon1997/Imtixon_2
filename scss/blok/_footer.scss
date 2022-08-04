@@ -1,0 +1,45 @@
+.footer
+{
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1B262F;
+    }
+    &__list
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    &__link
+    {
+        text-decoration: none;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FBFCFE;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        padding: 42px 40px;
+    }
+    &__link:hover
+    {
+        opacity: 1;
+    }
+    &__jpg
+    {
+        text-decoration: none;
+        padding: 24px;
+    }
+    &__logo
+    {
+        display: block;
+        text-decoration: none;
+    }
+   
+}
